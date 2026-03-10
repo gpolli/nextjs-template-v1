@@ -72,7 +72,7 @@ public/
 ### Prerequisites
 
 - Node.js >= 18
-- npm >= 10
+- pnpm >= 10
 
 ### Installation
 
@@ -82,10 +82,10 @@ git clone <repo-url>
 cd <project-name>
 
 # 2. Install dependencies
-npm install
+pnpm install
 
 # 3. Start the development server
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -94,22 +94,22 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Available Scripts
 
-| Script                    | Description                                    |
-| ------------------------- | ---------------------------------------------- |
-| `npm run dev`             | Start Next.js development server               |
-| `npm run build`           | Build for production                           |
-| `npm run start`           | Start production server                        |
-| `npm run type-check`      | Run TypeScript compiler check (`tsc --noEmit`) |
-| `npm run lint`            | Run ESLint across the project                  |
-| `npm run lint:fix`        | Run ESLint and auto-fix violations             |
-| `npm run format`          | Format all files with Prettier                 |
-| `npm run format:check`    | Check formatting without writing               |
-| `npm run test`            | Run all Vitest projects in watch mode          |
-| `npm run test:unit`       | Run unit tests only (jsdom)                    |
-| `npm run test:storybook`  | Run Storybook component tests (Playwright)     |
-| `npm run test:coverage`   | Run unit tests with v8 coverage report         |
-| `npm run storybook`       | Start Storybook dev server on port 6006        |
-| `npm run build-storybook` | Build Storybook as a static site               |
+| Script                 | Description                                    |
+| ---------------------- | ---------------------------------------------- |
+| `pnpm dev`             | Start Next.js development server               |
+| `pnpm build`           | Build for production                           |
+| `pnpm start`           | Start production server                        |
+| `pnpm type-check`      | Run TypeScript compiler check (`tsc --noEmit`) |
+| `pnpm lint`            | Run ESLint across the project                  |
+| `pnpm lint:fix`        | Run ESLint and auto-fix violations             |
+| `pnpm format`          | Format all files with Prettier                 |
+| `pnpm format:check`    | Check formatting without writing               |
+| `pnpm test`            | Run all Vitest projects in watch mode          |
+| `pnpm test:unit`       | Run unit tests only (jsdom)                    |
+| `pnpm test:storybook`  | Run Storybook component tests (Playwright)     |
+| `pnpm test:coverage`   | Run unit tests with v8 coverage report         |
+| `pnpm storybook`       | Start Storybook dev server on port 6006        |
+| `pnpm build-storybook` | Build Storybook as a static site               |
 
 ---
 
@@ -140,8 +140,8 @@ Collection of accessible, unstyled components built on Radix UI primitives, styl
 Add a component:
 
 ```bash
-npx shadcn@latest add button
-npx shadcn@latest add <component-name>
+pnpm dlx shadcn@latest add button
+pnpm dlx shadcn@latest add <component-name>
 ```
 
 Config file: [`components.json`](components.json)
